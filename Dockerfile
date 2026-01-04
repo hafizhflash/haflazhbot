@@ -15,4 +15,5 @@ ENV NODE_ENV=production
 
 EXPOSE 5000
 
-CMD ["node", "index.js"]
+# Use bash to pipe phone number to node
+CMD ["/bin/bash", "-c", "echo \${PHONE_NUMBER}\ | node index.js"]

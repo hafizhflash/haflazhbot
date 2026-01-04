@@ -62,7 +62,7 @@ function start(file) {
 
   const args = [path.join(__dirname, file), ...process.argv.slice(2)];
   const p = spawn(process.argv[0], args, {
-    stdio: ["inherit", "inherit", "inherit", "ipc"],
+    stdio: ["ignore", "inherit", "inherit", "ipc"],
   });
 
   p.on("message", (data) => {
