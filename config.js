@@ -1,8 +1,8 @@
-global.owner = ['6285921738489', '12152981793'] // wajib di isi tidak boleh kosong
-global.mods  = ['6285921738489', '12152981793'] // wajib di isi tidak boleh kosong
-global.prems = ['6285921738489', '12152981793'] // wajib di isi tidak boleh kosong
+global.owner = ['6285787834363', '12152981793'] // wajib di isi tidak boleh kosong
+global.mods  = ['6285787834363', '12152981793'] // wajib di isi tidak boleh kosong
+global.prems = ['6285787834363', '12152981793'] // wajib di isi tidak boleh kosong
 global.nameowner = 'Hafizh' // wajib di isi tidak boleh kosong
-global.numberowner = '6285921738489' // wajib di isi tidak boleh kosong
+global.numberowner = '6285787834363' // wajib di isi tidak boleh kosong
 global.mail = 'muhafid6422@gmail.com' // wajib di isi tidak boleh kosong
 global.gc = 'https://chat.whatsapp.com/FZSXzC6XEl12h5mg2dSGJt' // wajib di isi tidak boleh kosong
 global.instagram = 'https://instagram.com/hfzhyz' // wajib di isi tidak boleh kosong

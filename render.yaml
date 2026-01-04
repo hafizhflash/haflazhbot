@@ -7,4 +7,4 @@ services:
     healthCheckPath: /
     envVars:
       - key: PHONE_NUMBER
-        value: 6285921738489
+        value: 6285787834363
