@@ -1,19 +1,18 @@
-FROM node:lts-buster
+FROM node:20-slim
 
-RUN apt-get update && \
-  apt-get install -y \
-  ffmpeg \
-  imagemagick \
-  webp && \
-  apt-get upgrade -y && \
-  rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y ffmpeg imagemagick git python3 make g++ && rm -rf /var/lib/apt/lists/*
 
-COPY package.json .
+WORKDIR /app
 
-RUN npm install && npm install qrcode-terminal
+COPY package.json ./
+
+RUN npm install --legacy-peer-deps
 
 COPY . .
 
+ENV DEBIAN_FRONTEND=noninteractive
+ENV NODE_ENV=production
+
 EXPOSE 5000
 
-CMD ["node", "index.js", "--autocleartmp"]
+CMD ["node", "index.js"]

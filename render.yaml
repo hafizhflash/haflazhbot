@@ -1,6 +1,7 @@
 services:
   - type: web
-    name: bot-wa
+    name: haflazhbot
     env: docker
-    region: Singapore 
+    region: singapore
     plan: free
+    healthCheckPath: /

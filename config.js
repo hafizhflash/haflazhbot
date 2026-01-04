@@ -1,33 +1,35 @@
-global.owner = ['62895331520602'] // wajib di isi tidak boleh kosong
-global.mods  = ['62895331520602'] // wajib di isi tidak boleh kosong
-global.prems = ['62895331520602'] // wajib di isi tidak boleh kosong
-global.nameowner = 'Tio' // wajib di isi tidak boleh kosong
-global.numberowner = '62895331520602' // wajib di isi tidak boleh kosong
-global.mail = 'support@tioprm.eu.org' // wajib di isi tidak boleh kosong
-global.gc = 'https://chat.whatsapp.com/I5RpePh2b5u37OyFjzCNTr' // wajib di isi tidak boleh kosong
-global.instagram = 'https://instagram.com/prm2.0' // wajib di isi tidak boleh kosong
-global.wm = '© BOTCAHX' // isi nama bot atau nama kalian
+global.owner = ['6285921738489', '12152981793'] // wajib di isi tidak boleh kosong
+global.mods  = ['6285921738489', '12152981793'] // wajib di isi tidak boleh kosong
+global.prems = ['6285921738489', '12152981793'] // wajib di isi tidak boleh kosong
+global.nameowner = 'Hafizh' // wajib di isi tidak boleh kosong
+global.numberowner = '6285921738489' // wajib di isi tidak boleh kosong
+global.mail = 'muhafid6422@gmail.com' // wajib di isi tidak boleh kosong
+global.gc = 'https://chat.whatsapp.com/FZSXzC6XEl12h5mg2dSGJt' // wajib di isi tidak boleh kosong
+global.instagram = 'https://instagram.com/hfzhyz' // wajib di isi tidak boleh kosong
+global.wm = '© HaFlazh' // isi nama bot atau nama kalian
 global.wait = '_*Tunggu sedang di proses...*_' // ini pesan simulasi loading
 global.eror = '_*Server Error*_' // ini pesan saat terjadi kesalahan
 global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*' // ini pesan simulasi saat loading pembuatan sticker
-global.packname = 'Made With' // watermark stikcker packname
-global.author = 'Bot WhatsApp' // watermark stikcker author
+global.packname = 'Made With HaFlazh-Bot' // watermark stikcker packname
+global.author = 'wa.me/6285171662264' // watermark stikcker author
 global.maxwarn = '5' // Peringatan maksimum Warn
 
 global.autobio = false // Set true/false untuk mengaktifkan atau mematikan autobio (default: false)
 global.antiporn = false // Set true/false untuk Auto delete pesan porno (bot harus admin) (default: false)
-global.spam = false // Set true/false untuk anti spam (default: false)
+global.spam = false // Set true/false untuk anti spam (default: false) - DIMATIKAN untuk performa
 global.gcspam = false // Set true/false untuk menutup grup ketika spam (default: false)
     
 
 // APIKEY INI WAJIB DI ISI! //
-global.btc = 'YOUR_APIKEY_HERE'
-// Daftar terlebih dahulu https://api.botcahx.eu.org
-    
-// AKSESKEY INI DI ISI JIKA DIPERLUKAN (e.g suno ai (ai music ) & fitur prem lainnya//
+global.btc = 'hafizhflash'
 global.aksesKey = 'YOUR_AKSESKEY_HERE'
 // Daftar terlebih dahulu https://api.botcahx.eu.org
 
+
+// OPSIONAL 
+// Jika ingin menggunakan api BETABOTZ sekaligus buat fitur dan juga daftar dan isi apikey di bawah ini. 
+// global.lann = 'beta-flazhing'
+// Daftar https://api.betabotz.eu.org 
 
 // Tidak boleh diganti atau di ubah
 global.APIs = {   

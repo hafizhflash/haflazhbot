@@ -67,7 +67,6 @@ const allTags = {
     'github': 'MENU GITHUB',
     'group': 'MENU GROUP',
     'image': 'MENU IMAGE',
-    'nsfw': 'MENU NSFW',
     'info': 'MENU INFO',
     'internet': 'INTERNET',
     'islam': 'MENU ISLAMI',
@@ -87,8 +86,16 @@ const allTags = {
 
 const defaultMenu = {
     before: `
-Hi %name
-I am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.
+Hi %name. HaFlazh-BOT ialah BOT WhatsApp yang bisa membantu kalian untuk membuat sticker, mendownload sebuah media, ataupun mencari sesuatu dengan ai dan fitur lainnya. Semoga terbantu😁🙏
+
+Jan lupa bantu donasi ke Owner agar bot selalu online, untuk berdonasi bisa kalian cek melalui *.donasi*. Terima kasih.. :3
+
+‼️‼️ RULES SEWA BOT ‼️‼️
+https://telegra.ph/RULES-SEWABOT-10-11
+‼️‼️ Join GC HaFlazh-BOT ‼️‼️
+https://chat.whatsapp.com/FZSXzC6XEl12h5mg2dSGJt
+‼️‼️ Join Infor HaFlazh-BOT ‼️‼️
+https://whatsapp.com/channel/0029VaQkZpG4dTnFe3vFLZ1y
 
 ◦ *Library:* Baileys
 ◦ *Function:* Assistant
@@ -171,8 +178,8 @@ let handler = async (m, { conn, usedPrefix: _p, args = [], command }) => {
                         mediaType: 1,
                         previewType: 0,
                         renderLargerThumbnail: true,
-                        thumbnailUrl: 'https://telegra.ph/file/3a34bfa58714bdef500d9.jpg',
-                        sourceUrl: 'https://whatsapp.com/channel/0029VbAI9JCBKfi5qXq9yJ01'
+                        thumbnailUrl: 'https://telegra.ph/file/9ddb2cc3205f6adf3d114.jpg',
+                        sourceUrl: 'https://whatsapp.com/channel/0029VaQkZpG4dTnFe3vFLZ1y'
                     }
                 }, 
                 mentions: [m.sender]
@@ -244,8 +251,8 @@ let handler = async (m, { conn, usedPrefix: _p, args = [], command }) => {
                         mediaType: 1,
                         previewType: 0,
                         renderLargerThumbnail: true,
-                        thumbnailUrl: 'https://telegra.ph/file/3a34bfa58714bdef500d9.jpg',
-                        sourceUrl: 'https://whatsapp.com/channel/0029VbAI9JCBKfi5qXq9yJ01'
+                        thumbnailUrl: 'https://telegra.ph/file/9ddb2cc3205f6adf3d114.jpg',
+                        sourceUrl: 'https://whatsapp.com/channel/0029VaQkZpG4dTnFe3vFLZ1y'
                     }
                 }, 
                 mentions: [m.sender]

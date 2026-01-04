@@ -83,17 +83,17 @@ var handler = async (m, { conn, args, usedPrefix, command }) => {
             } else {
                 throw new Error("Jenis file tidak didukung!");
             }
-            if (q.text || q.caption) content.caption = q.text || q.caption;
+            if (q.text) content.caption = q.text;
         } else if (args.length > 0) {
             content.text = args.join(" ");
         } else {
-            throw new Error(`Reply media atau ketik teks!\nContoh: ${usedPrefix + command} halo semua`);
+            throw new Error(`Reply media atau masukkan Text\nContoh:\n${usedPrefix + command} halo guys`);
         }
 
-        await mstatus([m.chat], content);
-        m.reply("✅ *Status berhasil dikirim dan menandai semua anggota grup!*");
+        var sentMessage = await mstatus([m.chat], content);
+        m.reply(`✅ *Status berhasil dikirim!*\n\`\`\`${JSON.stringify(sentMessage, null, 2)}\`\`\``);
     } catch (error) {
-        m.reply(`❌ Gagal mengirim status:\n${error.message}`);
+        m.reply(`*Error:* \n\`\`\`${error.message}\`\`\``);
     }
 };
 
