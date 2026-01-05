@@ -1,6 +1,11 @@
 services:
   - type: web
-    name: bot-wa
+    name: haflazhbot
     env: docker
-    region: Singapore 
+    region: singapore
     plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PHONE_NUMBER
+        value: "6285787834363"
